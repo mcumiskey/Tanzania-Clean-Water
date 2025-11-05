@@ -1,0 +1,26 @@
+[project]
+name = "tanzania-clean-water"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+[tool.poetry]
+
+[tool.poetry.group.dev.dependencies]
+pandas = "^2.3.3"
+numpy = "^2.3.4"
+matplotlib = "^3.10.7"
+seaborn = "^0.13.2"
+plotly = "^6.4.0"
+sklearn-preprocessing = "^0.1.0"
+sklearn = "0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
